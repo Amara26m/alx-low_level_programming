@@ -1,3 +1,2 @@
 #!/bin/bash 
-gcc -E $CFILE -o c
-//explanation of -E below. [ https://studio.segger.com/index.htm?https://studio.segger,com/cc_option_preprocess.htm
+gcc $CFILE -E -o c
